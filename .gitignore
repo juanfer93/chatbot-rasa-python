@@ -1,0 +1,32 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Rasa specific files
+*.log
+*.db
+*.sqlite
+model/
+config.yml
+credentials.yml
+endpoints.yml
+domain.yml
+nlu.yml
+stories.yml
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+.env/
+
+# IDEs & Editors
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
