@@ -1,14 +1,7 @@
-# Python bytecode files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Rasa models
+models/
 
-# Rasa specific files
-*.log
-*.db
-*.sqlite
-model/
+# Config files
 config.yml
 credentials.yml
 endpoints.yml
@@ -16,17 +9,17 @@ domain.yml
 nlu.yml
 stories.yml
 
-# Environment files
-.env
-.venv/
-venv/
-env/
-.env/
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# IDEs & Editors
+# IDE folders
 .vscode/
 .idea/
 
-# Operating System Files
+# Operating System files
 .DS_Store
 Thumbs.db
+git status
