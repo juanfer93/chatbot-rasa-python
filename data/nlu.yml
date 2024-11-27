@@ -1,0 +1,21 @@
+version: "3.0"
+nlu:
+  - intent: greet
+    examples: |
+      - Hola
+      - Buenas
+      - ¡Qué tal!
+      - Hola, bot
+
+  - intent: goodbye
+    examples: |
+      - Adiós
+      - Hasta luego
+      - Nos vemos
+
+  - intent: ask_weather
+    examples: |
+      - ¿Cómo está el clima?
+      - ¿Qué tiempo hace hoy?
+      - ¿Cómo está el tiempo?
+      - ¿Qué clima tenemos?
